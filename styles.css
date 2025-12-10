@@ -5,9 +5,20 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #828282;
+    background-color: #a8a8a8;
 
     font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #ffffff;
+    background-color: #4b4b4b;
+
+    padding: 10px 20px;
+
+    border: black 5px solid;
+    border-radius: 8px;
 }
 
 #grid{
