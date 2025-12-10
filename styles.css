@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #828282;
+
+    font-family: Arial, sans-serif;
+}
+
+#grid{
+    height: 700px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+}
+
+.row{
+    display: flex;
+    flex: 1;
+}
+.cell{
+    flex: 1;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#controls {
+    border: 3px solid black;
+    background: #d3d3d3;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
